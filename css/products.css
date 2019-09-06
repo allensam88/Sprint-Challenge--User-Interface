@@ -102,6 +102,95 @@ header nav a {
     margin: 20px auto;
 }
 
+@keyframes example {
+    from {background-color: orangered;}
+    to {background-color: yellow;}
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 180px;
+    padding: 20px 20px;
+    font-weight: bold;
+    border: 5px dotted black;
+    background-color: orangered;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 50;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products h2 {
+    padding: 2px 2px;
+}
+
+.products p {
+    padding: 2px 2px;
+}
+
+.products img {
+    height: inherit;
+    width: inherit;
+    margin: 50px 50px;
+    border: 1px solid black;
+}
+
+.consulting {
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px dashed black;
+    padding: 20px 20px;
+    background-color: lightblue;
+}
+
+.templabor {
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px dashed black;
+    padding: 20px 20px;
+    background-color: yellowgreen;
+}
+
+.agile {
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px dashed black;
+    padding: 20px 20px;
+    background-color: salmon;
+}
+
+.highfive {
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px dashed black;
+    padding: 20px 20px;
+    background-color: turquoise;
+}
+
 footer {
     width: 60%;
     background: black;
