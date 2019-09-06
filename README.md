@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic Hyper Text Mark-up Language (HTML) is like building material for a house.  It provides framing and structure, but that’s about it.  There are basic building block elements of text, paragraphs, sections, dividers, images, links, etc…  However, there is no way to add color, shape, position, or alignment to these elements, which is done with Cascading Style Sheets (CSS).  Using the house analogy, CSS is like the paint, siding, window frames, etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline display allows for elements to be nested within other elements without disrupting the flow of the content.  The height & width have no effect and it only takes up as much space as its content. Vertical-align and text-align (horizontally) are available properties.  Block elements are not to be nested within an inline element. <a> and <span> are both examples of inline elements. 
+
+Block display elements take up as much space as their parent element will allow.  Height & width properties are used to control block elements.  Both block and inline elements can be nested within a parent block element.  Auto margin property is used to center horizontally, but vertical centering can be tricky without a flexbox.
+
+*reference: UI-II video #2 with Ryan Hamblin)
 
 3. What are the 4 areas of the box model?
 
+I.	Margin: space between other elements
+II.	Border: perimeter boundary around padding + content
+III.	Padding: inner space between content and border
+IV.	Content: the amount of space taken up by text or image
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-Axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to record and track a history of various changes to code so different versions and drafts are accessible.  It also allows developers to work on code as a team with forking and branching.  This makes it possible for people to work independently on the same code without interference, but then eventually merging those two code versions together later on.  This is good for test environments versus live environments.
+
+___________________________________________end of answers_______________________________________________________
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
