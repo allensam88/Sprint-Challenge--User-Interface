@@ -73,14 +73,12 @@ header {
     justify-content: space-between;
     font-size: 14px;
     margin: 0 auto;
-    border: 2px solid green;
 }
 
 header .nav-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 2px solid dodgerblue;
     margin: 20px auto;
 }
 
@@ -91,7 +89,6 @@ header nav {
     align-items: flex-end;
     font-size: 14px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 header nav a {
@@ -101,7 +98,6 @@ header nav a {
 }
 
 .banner {
-    border: 2px solid orangered;
     width: 100%;
     margin: 20px auto;
 }
